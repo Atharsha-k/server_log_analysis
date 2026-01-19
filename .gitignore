@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs and output
+outputs/
+*.log
+sample_logs/
+
+# Environment
+.venv/
+.env
