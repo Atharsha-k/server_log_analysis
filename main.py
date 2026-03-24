@@ -5,7 +5,7 @@ def main():
     print("🤖 AGENTIC SERVER LOG ANALYSIS SYSTEM")
     print("=" * 60)
 
-    log_path = r"C:\Users\amuth\Downloads\industry_server_access.log"
+    log_path = r"D:\server-log-analyzer\tools\sample_logs\industry_server_access.log"
 
     agent = LogAnalysisAgent(log_path)
     agent.run()   # ✅ no printing of summary or result
